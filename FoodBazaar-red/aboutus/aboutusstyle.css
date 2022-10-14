@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&family=Parisienne&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../home/homeimages/food5.jpg');
+    background-size: cover;
+}
+
+.aboutus h1,
+.aboutus .menubuttons{
+    background-color:#eb2f06;
+}
+.aboutus h1{
+    font-size: 30px;
+    color: antiquewhite;
+    padding: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    user-select: none;
+    text-align: center;
+}
+.menubuttons{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.menubuttons a{
+    text-decoration: none;
+    color:antiquewhite; 
+}
+.menubuttons button{
+    height: 30px;
+    width: 80px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 50px;
+    border: none;
+    transition: 0.3s ease;
+}
+.menubuttons button:hover a{
+    color:#eb2f06;
+}
+.panel{
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    width: 80%;
+    min-height: 250px;
+    margin-left: 150px; 
+    margin-top: 80px;
+}
+.panel h2{
+    font-weight: normal;
+    text-align: center;
+    padding: 20px;
+}
+.panel p{
+    text-align: justify;
+    text-indent: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: normal;
+    user-select: none;
+}
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+footer h3,
+footer button,
+footer h4{
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px;
+}
+footer button{
+    height: 20px;
+    width: 20px;
+    border: none;
+    background-color: rgba(0,0,0,0.1);
+}
+footer button i{
+    font-size: 3px;
+    color: antiquewhite;
+}

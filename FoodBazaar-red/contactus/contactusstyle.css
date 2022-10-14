@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&family=Parisienne&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+body{
+   /* background-image: linear-gradient(rgba(237,45,7,0.2),rgba(237,45,7,0.2)),url('../home/homeimages/food6.webp');  */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url('../home/homeimages/food6.webp');
+    background-size: cover;
+}
+/*
+.aboutus{
+    background-color:#eb2f06;
+}*/
+.contactus h1,
+.contactus .menubuttons{
+    background-color:#eb2f06;
+}
+.contactus h1{
+    font-size: 30px;
+    color: antiquewhite;
+    padding: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    user-select: none;
+    text-align: center;
+}
+.menubuttons{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.menubuttons a{
+    text-decoration: none;
+    color:antiquewhite; 
+}
+.menubuttons button{
+    height: 30px;
+    width: 80px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 50px;
+    border: none;
+    transition: 0.3s ease;
+}
+.menubuttons button:hover a{
+    color:#eb2f06;
+}
+.address{
+    color: antiquewhite;
+    height: 150px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.address h2{
+    margin-left: 95px;
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: normal;
+}
+.address h3,h4,h5{
+    margin-left: 95px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.social{
+    border: 2px solid antiquewhite;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.social .follow{
+    color: antiquewhite;
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.8);
+    transition: 0.3s ease;
+}
+.social .follow:hover{
+    color: #eb2f06;
+}
+.panel{
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    width: 400px;
+    min-height: 400px;
+    margin-left: 650px; 
+    margin-top: -175px;
+}
+.panel h6{
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+.form-group{
+    padding: 10px;
+    padding-left: 70px;
+}
+.form-group input{
+    height: 28px;
+    width: 250px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,0.8);
+    color: antiquewhite;
+}
+.form-group textarea{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,0.8);
+    color: antiquewhite;
+}
+.form-group button{
+    height: 30px;
+    width: 90px;
+    margin-left: 80px;
+    background-color: rgba(0,0,0,0.9);
+    color: antiquewhite;
+    border: none;
+    border-radius: 50px;
+    transition: 0.2s ease;
+}
+.form-group button:hover{
+    transform: scale(1.2);
+    color:#eb2f06;
+}

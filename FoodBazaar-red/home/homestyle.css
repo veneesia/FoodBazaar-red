@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+/*   font-family: 'Parisienne', cursive;  */
+section{
+    height: 100vh;
+    width: 100vw; 
+    position: relative;
+}
+.header{
+    background-image: url('homeimages/rest5.webp');
+    background-size: cover;
+    position: relative;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background-color:#eb2f06; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1
+}
+nav .logo{
+    height: 60px;
+    width: 100px;
+    background-color:rgba(167, 9, 9, 0.795);
+    text-transform: capitalize;
+    border: none;
+    font-size: 20px;
+    margin-left: 100px;
+    color: antiquewhite;
+    border-radius: 50%;
+    user-select: none;
+    letter-spacing: 1px;
+    font-family: 'Great Vibes', cursive;
+}
+.menubar #menus{
+    display: flex;
+}
+.menubar ul li{
+    list-style: none;
+    padding: 20px;
+}
+.menubar #menus li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s ease;
+}
+.menubar #menus li a:hover{
+    color: rgb(114, 31, 16);
+}
+
+nav .social{
+    height: 30px;
+    width: 90px;
+    border: none;
+    background-color:#eb2f06;
+    margin-right: 80px;
+}
+.social .fa{
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+nav .social .fa:hover{
+    color: black;
+}
+.header .banner{
+    border: none;
+    height: 90px;
+    width: 300px;
+    margin-top: 150px;
+    background-color: rgba(190, 21, 21, 0.89);
+    border-radius: 120px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: 18px;
+    position: absolute;   
+}
+.header .banner h1,
+.header .banner h2{
+    font-weight: normal;
+}
+.header .sub h3{
+    position: absolute;
+    text-align: center;
+    left: 830px;
+    top: 180px;
+    color: antiquewhite;
+    width: 200px;
+    font-size: 25px;
+    background-color: rgba(190, 21, 21, 0.89);
+    border-radius: 15px;
+    user-select: none;
+}
+
+.offers{
+    position: absolute;
+    background-color: rgb(175, 175, 189);
+    left: 600px;
+    bottom: 40px;
+    height: 350px;
+    width: 650px; 
+    padding: 10px;
+    display: flex; 
+    border-radius: 5px;
+    justify-content: space-between; 
+
+}
+
+.offers .offer{
+    background-color: rgb(111, 111, 122);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.offer .image{
+    height: 150px;
+    width: 200px;
+    background-color: white;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.offer .image img{
+    height: 150px;
+    width: 100%;
+  /*  padding: 10px;  */
+    transition: 0.6s ease;
+}
+.offer .image img:hover{
+    transform: scale(1.2);
+}
+.offer .content{
+    height: 180px;
+    width: 200px;
+    background-color: antiquewhite;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+}
+.offer .content h4{
+    text-align: center;
+    font-size: 20px;
+    color:#eb2f06;
+    padding: 6px;
+    user-select: none;
+}
+.offer .content h5{
+    text-align: center;
+    font-size: 16px;
+    color:#eb2f06;
+    padding: 2px;
+    user-select: none;
+}
+/*
+.offer .content h6{
+    text-align: center;
+    font-size: 15px;
+    color:rgba(167, 9, 9, 0.795);
+    padding: 2px;
+}
+*/
+.offer .content .rating{
+    font-size: 10px;
+    display: flex;
+    padding: 2px;
+    width: 150px;
+    justify-content: center;
+    align-items: baseline;
+    position: absolute;
+    left: 30px;
+    margin-top: 10px;
+    border: none;
+    background-color: antiquewhite;
+}
+.offer .content .rating h1{
+    padding: 0 10px;
+    color:#eb2f06;
+}
+.checked{
+    color: green;
+}
+.offer .content .cart{
+    position: absolute;
+    bottom: 35px;
+    left: 55px;
+    padding: 5px 10px;
+    color: antiquewhite;
+    background-color:EB2F06;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
